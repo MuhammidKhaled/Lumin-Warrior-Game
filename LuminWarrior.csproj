@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\images\aquaflame.png" />
+    <None Remove="assets\images\aquaflame1.png" />
+    <None Remove="assets\images\emptylivestar.png" />
+    <None Remove="assets\images\explosion1.png" />
+    <None Remove="assets\images\healthpowerup.png" />
+    <None Remove="assets\images\livestar.png" />
+    <None Remove="assets\images\player.png" />
+    <None Remove="assets\images\redflame.png" />
+    <None Remove="assets\images\rock.png" />
+    <None Remove="assets\images\rocketspackage.png" />
+    <None Remove="assets\images\scorecoin.png" />
+    <None Remove="assets\images\shieldpackage.png" />
+    <None Remove="assets\sounds\clicksound.wav" />
+    <None Remove="assets\sounds\hitrocks.wav" />
+    <None Remove="assets\sounds\lasershoot.wav" />
+    <None Remove="assets\sounds\powerupsound.wav" />
+    <None Remove="assets\sounds\shakingsound.wav" />
+    <None Remove="assets\sounds\uisound.wav" />
+    <None Remove="assets\sounds\victorysound.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\images\aquaflame.png" />
+    <Resource Include="assets\images\boss.png" />
+    <Resource Include="assets\images\circularenemy.png" />
+    <Resource Include="assets\images\emptylivestar.png" />
+    <Resource Include="assets\images\explosion1.png" />
+    <Resource Include="assets\images\explosion2.png" />
+    <Resource Include="assets\images\explosion3.png" />
+    <Resource Include="assets\images\healthpowerup.png" />
+    <Resource Include="assets\images\livestar.png" />
+    <Resource Include="assets\images\redenemy.png" />
+    <Resource Include="assets\images\player.png" />
+    <Resource Include="assets\images\redflame.png" />
+    <Resource Include="assets\images\rock.png" />
+    <Resource Include="assets\images\rocketspackage.png" />
+    <Resource Include="assets\images\scorecoin.png" />
+    <Resource Include="assets\images\shieldpackage.png" />
+    <Resource Include="assets\images\spacestation.png" />
+    <Content Include="assets\sounds\clicksound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\explosionsound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\hitrocks.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\lasershoot.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\powerupsound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\shakingsound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\uisound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\victorysound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
