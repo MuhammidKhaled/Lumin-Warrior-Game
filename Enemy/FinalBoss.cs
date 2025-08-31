@@ -420,7 +420,7 @@ namespace LuminWarrior
             allowExplosions = false;
         }
 
-        private void CleanupBaseElements()
+        public void CleanupBaseElements()
         {
             //Without explosions sounds
             if (flameRect != null && gameCanvas.Children.Contains(flameRect))

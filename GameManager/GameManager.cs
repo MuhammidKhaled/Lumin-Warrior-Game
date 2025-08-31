@@ -885,7 +885,7 @@ namespace LuminWarrior
 
             if (finalBossActive)
             {
-                finalBoss.Remove();
+                finalBoss.CleanupBaseElements();
                 finalBossActive = false;
             }
 
