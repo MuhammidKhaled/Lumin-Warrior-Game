@@ -97,7 +97,7 @@ Contributions, issues, and feature requests are welcome! Feel free to to submit 
 This project is licensed under the MIT License - see the ([LICENSE](LICENSE)) file for details.
 
 ## ⬇️ Download & Play
-[**Win64-bit**](https://github.com/MuhammidKhaled/Lumin-Warrior-Game/releases/download/1.0/LuminWarrior-win64.rar)
+[**Win64-bit**](https://github.com/MuhammidKhaled/Lumin-Warrior-Game/releases/download/1.0.1/luminWarriorWin64.rar)
 
-[**Win32-bit**](https://github.com/MuhammidKhaled/Lumin-Warrior-Game/releases/download/1.0/LuminWarrior-win32.rar)
+[**Win32-bit**](https://github.com/MuhammidKhaled/Lumin-Warrior-Game/releases/download/1.0.1/LuminWarriorWin32.rar)
   
