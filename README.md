@@ -48,7 +48,40 @@ Lumin Warrior is a complete 2D space shooter game developed with C# and the Wind
 - Obstacles : Obstacles that add a new layer of challenge to the gameplay.
 - FREE FLY MODE: To Practice your flying skills in a simplified environment without enemies or obstacles - just you in the space.
 
-## ⚙️ How to Play
+## 📂 Project Structure
+- UI/
+  - MainWindow.xaml : defines the game's UI layout (the canvas, buttons, etc)
+  - MainWindow.xaml.cs: contains the logic that initializes the game, handles events, and bridges all the other components together.
+  - UIManager.cs: This class centralizes all the logic for managing the UI elements, such as updating the score, health bar, and showing/hiding menus.
+- GameManager/
+  - GameManager.cs: This class is the main controller for the entire game. It orchestrates the flow of the game, managing transitions between levels, pausing the game, and overseeing the interaction between the player, enemies, and other game objects
+- Levels/
+  - Levels.cs: Manages the progression of the game. It controls level loading, transitions, and the spawning of enemies and obstacles for each of the 6 levels.
+- Player/
+  - Player.cs: This is the core class for the main character. It handles player input, movement, firing mechanics, and its state.
+- PowerUps/
+  - PowerUps.cs: A dedicated system for spawning, managing, and applying the effects of power-ups to the player.
+- HealthSystem/
+  - Health.cs: A fundamental class that manages the health of the player.
+  - BossHealthBar.cs: A specialized class for visually representing the health of the main bosses.
+- Enemy/
+  - Enemy.cs: This is a base class that defines the core behavior of all enemies and it contains the 2 types of the regular enemies (red enemy & rounded enemy)
+  - MiniBoss.cs & FinalBoss.cs: These classes represent the final bosses in the game, with more complex behavior, health, and attacks than regular enemies.
+  - SpaceStation.cs: This class represents a specific, static object in the final level, you can consider it as a source of enemies and it appears in the last level of the game with the final Boss.
+- Obstacles/
+  - Obstacles.cs: Manages the spawning and movement of the obstacles (the rocks).
+- Background/
+  - BackgroundManager.cs: Handles the animation of the game's background.
+- Settings/
+  - PausePopup.cs: Manages the UI and logic for the pause menu.
+- Effects/
+  - HitEffects.cs: Manages the visual effects that happen when objects are hit like explosions and particles.
+  - SoundEffectsManager.cs: A global manager for playing all sound effects and music of the game.
+- assets/
+  - images
+  - sounds
+
+## 🎮 How to Play
 ### Controls
 - Use Arrow Keys to move your spaceship
 - Press 'M' button to switch to mouse control mode
@@ -64,5 +97,7 @@ Contributions, issues, and feature requests are welcome! Feel free to to submit 
 This project is licensed under the MIT License - see the ([LICENSE](LICENSE)) file for details.
 
 ## ⬇️ Download & Play
-You can download the game from [**here**](https://github.com/MuhammidKhaled/Lumin-Warrior-Game/releases/download/1.0/LuminWarriorV1.0.rar)
+[**Win64-bit**](https://github.com/MuhammidKhaled/Lumin-Warrior-Game/releases/download/1.0/LuminWarrior-win64.rar)
+
+[**Win32-bit**](https://github.com/MuhammidKhaled/Lumin-Warrior-Game/releases/download/1.0/LuminWarrior-win32.rar)
   
